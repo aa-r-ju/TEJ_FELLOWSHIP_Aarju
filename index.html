@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TEJ Application</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">TEJ Application Project</h1>
+      <hr />
+      <div>
+        <p><b> Samosa</b></p>
+      </div>
+      <div>Price: <input id="samosaPrice" type="number" /></div>
+      <div>
+        Quantity: <button id="samosaIncrement">+</button>
+        <span id="samosaQuantity">0</span>
+        <button id="samosaDecrement">-</button>
+      </div>
+      <div>
+        <p><b> Total:</b> <span id="samosaTotal">0</span></p>
+      </div>
+      <hr />
+      <div>
+        <p><b>Tea</b></p>
+      </div>
+      <div>Price: <input id="teaPrice" type="number" /></div>
+      <div>
+        Quantity: <button id="teaIncrement">+</button>
+        <span id="teaQuantity">0</span> <button id="teaDecrement">-</button>
+      </div>
+      <div>
+        <p><b> Total:</b> <span id="teaTotal">0</span></p>
+      </div>
+      <hr />
+      <div>
+        <p><b> Total price: </b> <span id="totalOfBoth">0</span></p>
+      </div>
+      <div>
+        <p>Vat(13%): <span id="vat">0</span></p>
+      </div>
+      <div>
+        <p>Tip(10%): <span id="tip">0</span></p>
+      </div>
+      <hr />
+      <div>
+        <p><b> Grand total:</b> <span id="totalOfAll">0</span></p>
+      </div>
+      <div>
+        <button id="grandTotal"><b> Calculate grand total </b></button>
+      </div>
+    </div>
+    <script src="./script.js "></script>
+  </body>
+</html>
